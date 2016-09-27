@@ -22,6 +22,7 @@ tools:
 	go build ./cmd/oci-create-runtime-bundle
 	go build ./cmd/oci-unpack
 	go build ./cmd/oci-image-validate
+	go build ./cmd/oci-create-layer
 
 lint:
 	@echo "checking lint"
